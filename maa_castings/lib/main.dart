@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:maa_castings/Profile_screen.dart';
 import 'package:maa_castings/home_page.dart';
 import 'package:maa_castings/main_screen.dart';
 import 'package:maa_castings/profile_filling.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: ProfileFilling(),
+      home: Main(),
       theme: ThemeData(
         bottomSheetTheme: BottomSheetThemeData(
           backgroundColor: Color(0xffe5e5e5),

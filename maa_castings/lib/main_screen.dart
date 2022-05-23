@@ -30,6 +30,17 @@ class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+     appBar: AppBar(
+       centerTitle: true,
+       title: Container(
+         height: 70,
+         child:Image.asset("assets/MAA_Castings.png"),
+         decoration: BoxDecoration(
+           
+         ),
+       ),
+              backgroundColor: Color(0xffe2f2ff),
+              elevation: 0,),
       
       body: SizedBox.expand(
         child: PageView(

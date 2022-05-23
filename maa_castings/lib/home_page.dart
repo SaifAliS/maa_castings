@@ -3,7 +3,7 @@
 import 'dart:ui';
 import 'package:maa_castings/login_page.dart';
 import 'package:flutter/material.dart';
-import 'package:blurrycontainer/blurrycontainer.dart';
+
 
 
 class HomePage extends StatefulWidget {
@@ -17,10 +17,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: BlurryContainer(
-        blur: 50,
+     
         child: Scaffold(
-          backgroundColor: Color(0xffe5e5e5), //82bce3
+          backgroundColor: Color(0xffffffff), //82bce3
       
           body: Padding(
             padding: EdgeInsets.fromLTRB(25, 0, 25, 0),
@@ -135,7 +134,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-      ),
+      
     );
   }
 }

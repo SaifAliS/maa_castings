@@ -60,7 +60,7 @@ class _ProfileFillingState extends State<ProfileFilling> {
                 ),
               ],
             ),
-            child: personal_details()),
+            child: verify_maa()),
       ),
     );
   }
@@ -86,17 +86,7 @@ class _ProfileFillingState extends State<ProfileFilling> {
           ),
         ),
         input_field(),
-        GestureDetector(
-            child: Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "Verify *",
-                  style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Color(0xff3399ff)),
-                )),
-                onTap: (){},),
+        
         Spacer(),
         SizedBox(
           height: 50,

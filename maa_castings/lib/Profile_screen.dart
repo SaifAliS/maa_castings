@@ -16,10 +16,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            appBar: AppBar(
-              backgroundColor: Color(0xffe2f2ff),
-              elevation: 0,
-            ),
+           
             body: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
@@ -30,6 +27,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      SizedBox(height: 20,),
                       Align(
                           alignment: Alignment.center,
                           child: GestureDetector(
